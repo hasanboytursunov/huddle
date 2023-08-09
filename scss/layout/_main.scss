@@ -79,8 +79,16 @@
   background-color: $color-btn-bg-hover;
   transition: 0.3s;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .main__content {
     flex-direction: column;
+  }
+  .main__title__text {
+    text-align: center;
+  }
+  .main__image {
+    object-fit: contain;
+    height: 245px;
+    align-items: center;
   }
 }
