@@ -1,5 +1,5 @@
 .header {
-  background-image: url("/image/hero\ bg.png");
+  background-image: url("/image/hero-bg.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -7,9 +7,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 7.7rem;
 }
 .header__logo-link {
+  margin-top: 4.8rem;
 }
 .header__img {
 }
