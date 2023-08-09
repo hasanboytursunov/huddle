@@ -72,10 +72,20 @@
   background-color: $color-btn-bg-hover;
   transition: 0.3s;
 }
-@media screen and (max-width: 659px) {
+@media screen and (max-width: 1000px) {
   .hero__container {
     flex-direction: column;
     margin-top: 7rem;
+  }
+  .header__img {
+    height: 400px;
+    object-fit: contain;
+  }
+  .hero__title__text {
+    text-align: center;
+  }
+  .hero__title p {
+    text-align: center;
   }
 }
 .hero__right {
