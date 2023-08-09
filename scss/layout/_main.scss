@@ -1,0 +1,86 @@
+.main__container {
+}
+.container {
+}
+.main__content {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 1.6rem;
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.07);
+  //   margin-bottom: 16rem;
+}
+.mein__title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 12rem;
+}
+.main__title__text {
+  color: $dark-color;
+  font-family: "Poppin", sans-serif;
+  font-weight: 600;
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+}
+.main__title__text p {
+  font-family: "Poppin", sans-serif;
+  width: 100%;
+  max-width: 488px;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: $silver-color;
+}
+.main__text {
+  color: $silver-color;
+}
+.main__content__image {
+}
+.main__image {
+  object-fit: cover;
+}
+
+.Community {
+  width: 800px;
+  text-align: center;
+  max-width: 800px;
+  height: 280px;
+  flex-shrink: 0;
+  background-color: $color_fff;
+  border-radius: 1.5rem;
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.07);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 16rem;
+  margin-bottom: -15rem;
+  position: relative;
+  z-index: 100rem;
+}
+.community__title {
+  margin-bottom: 5.7rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.community__btn {
+  width: 100%;
+  max-width: 400px;
+  height: 80px;
+  background-color: $color-btn-bg;
+  border-radius: 4rem;
+  font-size: 2rem;
+  color: $color_fff;
+  font-weight: 700;
+  padding: 2.5rem 10rem;
+}
+
+.community__btn:hover {
+  background-color: $color-btn-bg-hover;
+  transition: 0.3s;
+}
+@media screen and (max-width: 600px) {
+  .main__content {
+    flex-direction: column;
+  }
+}

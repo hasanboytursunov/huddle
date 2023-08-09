@@ -1,0 +1,347 @@
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/open-sans-v35-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/open-sans-v35-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-regular - latin */
+/* poppins-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/poppins-v20-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/poppins-v20-latin-600.woff2") format("woff2");
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1380px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 5rem;
+  padding-left: 5rem;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #00252e;
+  height: 418px;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Open sans", sans-serif;
+}
+
+.site__logo {
+  margin-top: 14.4rem;
+  width: 15.2rem;
+  height: 2.4rem;
+  flex-shrink: 0;
+  color: #fff;
+  margin-bottom: 3.2rem;
+}
+
+.loco__link {
+  color: #fff;
+}
+
+.tel__footer {
+  color: #fff;
+}
+
+.footer__tel__number {
+  color: #fff;
+  font-size: 1.4rem;
+}
+
+.gamil__link {
+  color: #fff;
+  font-size: 1.4rem;
+}
+
+.footer__2 {
+  margin-top: 20rem;
+}
+
+.footer__item a {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.92;
+  font-family: "Open sans", sans-serif;
+}
+
+.footer__item a:hover {
+  text-decoration: underline;
+}
+
+.footer__3 {
+  margin-top: 20rem;
+}
+
+.footer4 {
+  display: flex;
+  margin-top: 20rem;
+  gap: 1rem;
+}
+
+.footer__link__f:hover {
+  width: 3.1rem;
+  height: 3.1rem;
+  border-radius: 50%;
+  background-color: #ff9adb;
+  transition: 0.3s;
+}
+
+.footer__link__t:hover {
+  width: 3.1rem;
+  height: 3.1rem;
+  border-radius: 50%;
+  background-color: #ff9adb;
+  transition: 0.3s;
+}
+
+.footer p {
+  display: flex;
+  justify-content: end;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.footer__link__i:hover {
+  width: 3.1rem;
+  height: 3.1rem;
+  border-radius: 50%;
+  background-color: #ff9adb;
+}
+
+@media screen and (max-width: 700px) {
+  .footer {
+    flex-direction: column;
+  }
+}
+.main__content {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 1.6rem;
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.07);
+}
+
+.mein__title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 12rem;
+}
+
+.main__title__text {
+  color: #00252e;
+  font-family: "Poppin", sans-serif;
+  font-weight: 600;
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+}
+
+.main__title__text p {
+  font-family: "Poppin", sans-serif;
+  width: 100%;
+  max-width: 488px;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #808e9a;
+}
+
+.main__text {
+  color: #808e9a;
+}
+
+.main__image {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.Community {
+  width: 800px;
+  text-align: center;
+  max-width: 800px;
+  height: 280px;
+  flex-shrink: 0;
+  background-color: #fff;
+  border-radius: 1.5rem;
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.07);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 16rem;
+  margin-bottom: -15rem;
+  position: relative;
+  z-index: 100rem;
+}
+
+.community__title {
+  margin-bottom: 5.7rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.community__btn {
+  width: 100%;
+  max-width: 400px;
+  height: 80px;
+  background-color: #ff52c1;
+  border-radius: 4rem;
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 700;
+  padding: 2.5rem 10rem;
+}
+
+.community__btn:hover {
+  background-color: #ff9adb;
+  transition: 0.3s;
+}
+
+@media screen and (max-width: 600px) {
+  .main__content {
+    flex-direction: column;
+  }
+}
+.header {
+  background-image: url("/image/hero bg.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 7.7rem;
+}
+
+.header__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #00252e;
+  font-size: 1.4rem;
+  font-weight: 700;
+  width: 20rem;
+  height: 3.1rem;
+  flex-shrink: 0;
+  background-color: #ffffff;
+  border-radius: 2.4rem;
+  box-shadow: 0px 3px 11px 0px rgba(0, 0, 0, 0.1);
+}
+
+.hero__container {
+  margin-bottom: 1.61rem;
+  padding-top: 7.1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero__title p {
+  width: 100%;
+  max-width: 52rem;
+  margin-top: 3.2rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.hero__title__text {
+  width: 100%;
+  max-width: 53rem;
+  font-family: "Poppin", sans-serif;
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #00252e;
+}
+
+.hero__link {
+  width: 28rem;
+  height: 5.6rem;
+  flex-shrink: 0;
+  border-radius: 2.8rem;
+  background-color: #ff52c1;
+  box-shadow: 2px 3px 6px 1px rgba(255, 82, 193, 0.17);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 1.4rem;
+  margin-top: 3.2rem;
+}
+
+.hero__link:hover {
+  background-color: #ff9adb;
+  transition: 0.3s;
+}
+
+@media screen and (max-width: 659px) {
+  .hero__container {
+    flex-direction: column;
+    margin-top: 7rem;
+  }
+}
+.hero__right {
+  width: 100%;
+  display: flex;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=style.css.map */

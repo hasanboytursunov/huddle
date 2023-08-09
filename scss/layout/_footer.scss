@@ -1,0 +1,97 @@
+.footer {
+  background-color: $dark-color;
+  height: 418px;
+}
+.footer__container {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Open sans", sans-serif;
+}
+.container {
+}
+.footer__logo {
+}
+.site__logo {
+  margin-top: 14.4rem;
+  width: 15.2rem;
+  height: 2.4rem;
+  flex-shrink: 0;
+  color: $color_fff;
+  margin-bottom: 3.2rem;
+}
+.footer__loco {
+}
+.loco__link {
+  color: $color_fff;
+}
+
+.tel__footer {
+  color: $color_fff;
+}
+.footer__tel__number {
+  color: $color_fff;
+  font-size: 1.4rem;
+}
+.gamil__link {
+  color: $color_fff;
+  font-size: 1.4rem;
+}
+.footer__2 {
+  margin-top: 20rem;
+}
+.footer__item a {
+  color: $color_fff;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.92;
+  font-family: "Open sans", sans-serif;
+}
+.footer__item a:hover {
+  text-decoration: underline;
+}
+.footer__3 {
+  margin-top: 20rem;
+}
+.footer3 {
+}
+.footer__link {
+}
+.footer4 {
+  display: flex;
+  margin-top: 20rem;
+  gap: 1rem;
+}
+.footer__link__f:hover {
+  width: 3.1rem;
+  height: 3.1rem;
+  border-radius: 50%;
+  background-color: $color-btn-bg-hover;
+  transition: 0.3s;
+}
+.footer__link__t:hover {
+  width: 3.1rem;
+  height: 3.1rem;
+  border-radius: 50%;
+  background-color: $color-btn-bg-hover;
+  transition: 0.3s;
+}
+.footer__twitt {
+}
+.footer p {
+  display: flex;
+  justify-content: end;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.footer__link__i:hover {
+  width: 3.1rem;
+  height: 3.1rem;
+  border-radius: 50%;
+  background-color: $color-btn-bg-hover;
+}
+@media screen and (max-width: 700px) {
+  .footer {
+    flex-direction: column;
+  }
+}
